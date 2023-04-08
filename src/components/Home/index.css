@@ -1,0 +1,65 @@
+.home-desktop-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content {
+  display: flex;
+}
+
+.home-left-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-heading {
+  margin: 55px;
+  font-size: 45px;
+}
+
+.clothes-get-you-noticed-mobile {
+  width: 450px;
+  height: 350px;
+  margin: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-desktop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .clothes-get-you-noticed-mobile {
+    display: none;
+  }
+}
+
+.clothes-get-you-noticed-desktop {
+  width: 450px;
+  height: 350px;
+  margin: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .clothes-get-you-noticed-desktop {
+    display: none;
+  }
+}
+
+.clothes-description {
+  max-width: 550px;
+  font-size: 18px;
+  margin: 55px;
+}
+
+.shop-now {
+  background-color: #0b69ff;
+  border-radius: 6px;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  border-color: transparent;
+  margin: auto;
+  color: #ffffff;
+  cursor: pointer;
+}
